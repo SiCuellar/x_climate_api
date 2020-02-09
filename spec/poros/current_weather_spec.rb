@@ -11,7 +11,7 @@ describe "Current Weather" do
 
     expect(current_weather).to be_an_instance_of(CurrentWeather)
     expect(current_weather.time).to eq(1551057186)
-    expect(current_weather.summary)to eq("Clear")
+    expect(current_weather.summary).to eq("Clear")
     expect(current_weather.precip).to eq(0)
     expect(current_weather.temp).to eq(39.21)
     expect(current_weather.temp_feel_like).to eq(34.97)
