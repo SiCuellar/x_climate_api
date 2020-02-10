@@ -1,0 +1,3 @@
+class DayWeather
+  
+end
