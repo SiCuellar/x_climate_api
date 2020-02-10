@@ -46,6 +46,10 @@ describe "DayWeather" do
     day_weather = DayWeather.new(day_data)
 
     expect(day_weather).to be_an_instance_of(DayWeather)
-
+    expect(day_weather.time).to eq(1550991600)
+    expect(day_weather.summary).to eq("Snow")
+    expect(day_weather.precip).to eq(0.11)
+    expect(day_weather.temp_high).to eq(44.53)
+    expect(day_weather.temp_low).to eq(19.12)
   end
 end
