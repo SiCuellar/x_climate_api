@@ -23,10 +23,10 @@ describe "Hour Weather" do
     hour_weather = HourWeather.new(hour_data)
 
     expect(hour_weather).to be_an_instance_of(HourWeather)
-    # expect(hour_weather.time).to eq(1551074400)
-    # expect(hour_weather.summary).to eq("Clear")
-    # expect(hour_weather.precip).to eq(0)
-    # expect(hour_weather.icon).to eq("clear-night")
-    # expect(hour_weather.temp).to eq(29.59)
+    expect(hour_weather.time).to eq(1551074400)
+    expect(hour_weather.summary).to eq("Clear")
+    expect(hour_weather.precip).to eq(0)
+    expect(hour_weather.icon).to eq("clear-night")
+    expect(hour_weather.temp).to eq(29.59)
   end
 end
