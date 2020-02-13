@@ -8,6 +8,6 @@ describe GoogleMapsService do
     coordinates = service.get_coordinates(location)
 
     expect(service).to be_an_instance_of(GoogleMapsService)
-    # expect(coordinates).to eq({:lat=>39.7392358, :lng=>-104.990251})
+    expect(coordinates).to eq({:lat=>39.7392358, :lng=>-104.990251})
   end
 end
